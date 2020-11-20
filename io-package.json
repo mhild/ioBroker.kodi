@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "kodi",
-    "version": "2.0.4",
+    "version": "2.0.4.1",
     "news": {
       "2.0.3": {
         "en": "fixed thumbnails widget\nfixed info.tagline",

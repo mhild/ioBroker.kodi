@@ -436,6 +436,16 @@ function GetPlayerProperties(){
                 }
                 if (res[2].item.type === 'channel'){
                     saveState('info.type', res[2].item.type);
+                    saveState('info.tagline', res.tagline);
+                    saveState('info.fanart', res.fanart);
+                    saveState('info.thumbnail', res.thumbnail);
+                    saveState('info.currentplay', res.label);
+                    saveState('info.title', res.title ? res.title :res.label);
+                    saveState('info.episode', res.episode);
+                    saveState('info.file', res.file);
+                    saveState('info.originaltitle', res.originaltitle);
+                    saveState('info.plot', res.plot);
+                    saveState('info.rating', res.rating);
                     channel = true;
                 } else {
                     saveState('info.type.val', res[0].type);
