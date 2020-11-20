@@ -3,10 +3,10 @@
   "version": "2.0.4.1",
   "description": "iobroker.kodi Adapter",
   "author": {
-    "name": "instalator",
-    "email": "vvvalt@mail.ru"
+    "name": "mhild",
+    "email": ""
   },
-  "homepage": "https://github.com/instalator/ioBroker.kodi",
+  "homepage": "https://github.com/mhild/ioBroker.kodi",
   "license": "MIT",
   "keywords": [
     "ioBroker",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/instalator/ioBroker.kodi"
+    "url": "https://github.com/mhild/ioBroker.kodi"
   },
   "dependencies": {
     "kodi-ws": "https://github.com/instalator/kodi-ws/tarball/master/",
