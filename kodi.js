@@ -363,6 +363,8 @@ function GetCurrentItem(cb){
                         saveState('info.currentplay', res.label);
                         saveState('info.title', res.title ? res.title :res.label);
                         saveState('info.album', res.album);
+                        saveState('info.showtitle', res.showtitle);
+                        saveState('info.season', res.season);
                         saveState('info.episode', res.episode);
                         saveState('info.file', res.file);
                         saveState('info.imdbnumber', res.imdbnumber);
